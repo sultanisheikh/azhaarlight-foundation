@@ -21,6 +21,7 @@ export function Header() {
     { label: t.nav.help, href: "/aider" },
     { label: t.nav.contact, href: "/contact" },
     { label: t.nav.reports, href: "/rapports" },
+    { label: "Réunion 2026", href: "/reunion-2026" },
   ]
 
   const toggleLanguage = () => {
@@ -81,46 +82,3 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center gap-3">
-            <Link href="/recherche" className="text-foreground/80 hover:text-primary" aria-label="Recherche">
-              <Search className="h-5 w-5" />
-            </Link>
-            <button
-              className="p-2 text-foreground"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Toggle menu"
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-border">
-            <div className="flex flex-col gap-3">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <Button
-                variant="outline"
-                size="sm"
-                className="w-fit border-foreground/20 text-foreground/80 mt-2"
-                onClick={toggleLanguage}
-              >
-                {locale === "fr" ? "EN" : "FR"}
-              </Button>
-            </div>
-          </div>
-        )}
-      </nav>
-    </header>
-  )
-}
