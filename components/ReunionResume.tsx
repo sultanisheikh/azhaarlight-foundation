@@ -6,10 +6,12 @@ export default function ReunionResume() {
         <span style={{ background: "#C9A84C", color: "#fff", fontSize: 11, fontWeight: 500, letterSpacing: "0.08em", textTransform: "uppercase" as const, padding: "4px 14px", borderRadius: 20, display: "inline-block", marginBottom: "0.85rem" }}>
           Compte-rendu officiel
         </span>
-        <h2 style={{ color: "#fff", fontSize: 24, marginBottom: "0.35rem", margin: "0 0 0.35rem" }}>
+        <h2 style={{ color: "#fff", fontSize: 24, margin: "0 0 0.35rem" }}>
           Premiere reunion officielle des membres
         </h2>
-        <p style={{ color: "#B5D4F4", fontSize: 15, margin: 0 }}>AzhaarLight Foundation — Samedi 23 mai 2026</p>
+        <p style={{ color: "#B5D4F4", fontSize: 15, margin: 0 }}>
+          AzhaarLight Foundation — Samedi 23 mai 2026
+        </p>
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 10, marginBottom: "1.5rem" }}>
@@ -72,7 +74,7 @@ export default function ReunionResume() {
           { title: "Sensibilisation", desc: "Partager nos messages et inviter d autres personnes engagees a rejoindre la famille." },
         ].map((c) => (
           <div key={c.title} style={{ background: "#fff", border: "1px solid #E8E8E8", borderRadius: 10, padding: "1rem" }}>
-            <p style={{ fontSize: 14, fontWeight: 500, color: "#1a1a1a", marginBottom: 5, margin: "0 0 5px" }}>{c.title}</p>
+            <p style={{ fontSize: 14, fontWeight: 500, color: "#1a1a1a", margin: "0 0 5px" }}>{c.title}</p>
             <p style={{ fontSize: 13, color: "#666", lineHeight: 1.6, margin: 0 }}>{c.desc}</p>
           </div>
         ))}
