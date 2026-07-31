@@ -33,24 +33,6 @@ export default function WhatsAppBar() {
       {/* Numéros WhatsApp */}
       <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", alignItems: "center" }}>
         <a
-          href="https://wa.me/32470904620"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: "#25D366",
-            fontWeight: 500,
-            textDecoration: "none",
-            display: "flex",
-            alignItems: "center",
-            gap: "5px",
-          }}
-          aria-label="WhatsApp Belgique"
-        >
-          <WhatsAppIcon />
-          🇧🇪 +32 470 90 46 20
-        </a>
-
-        <a
           href="https://wa.me/25767914387"
           target="_blank"
           rel="noopener noreferrer"
