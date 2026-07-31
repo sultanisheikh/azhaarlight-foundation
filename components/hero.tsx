@@ -152,7 +152,7 @@ export function Hero() {
               <Phone className="h-8 w-8 text-primary flex-shrink-0" />
               <div>
                 <p className="text-sm text-muted-foreground">📞 WhatsApp</p>
-                <p className="font-medium text-foreground">+32 470 90 46 20</p>
+                <p className="font-medium text-foreground">+257 67 91 43 87</p>
               </div>
             </div>
           </div>
