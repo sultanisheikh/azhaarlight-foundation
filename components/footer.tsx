@@ -99,7 +99,6 @@ export function Footer() {
             </div>
             <div className="mt-6 space-y-1 text-sm text-muted-foreground">
               <p>📩 azhaarlight@outlook.com</p>
-              <p>📞 🇧🇪 +32 470 90 46 20</p>
               <p>📞 🇧🇮 +257 67 91 43 87</p>
               <p>📍 Bujumbura, Burundi</p>
             </div>
