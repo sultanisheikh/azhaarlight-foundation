@@ -160,15 +160,6 @@ export function Contact() {
                   <h3 className="font-semibold text-foreground">📞 {t.contact.phoneLabel}</h3>
                   <div>
                     <p className="text-xs text-muted-foreground font-medium mb-1">
-                      🇧🇪 {isFr ? "Belgique (Europe)" : "Belgium (Europe)"}
-                    </p>
-                    <a href="tel:+32470904620" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                      +32 470 90 46 20
-                    </a>
-                    <p className="text-xs text-muted-foreground mt-1">WhatsApp {t.contact.available}</p>
-                  </div>
-                  <div>
-                    <p className="text-xs text-muted-foreground font-medium mb-1">
                       🇧🇮 {isFr ? "Burundi (Afrique de l'Est)" : "Burundi (East Africa)"}
                     </p>
                     <a href="tel:+25767914387" className="text-muted-foreground hover:text-primary transition-colors text-sm">
