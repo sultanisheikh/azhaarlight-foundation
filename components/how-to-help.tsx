@@ -98,7 +98,7 @@ export function HowToHelp() {
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <p className="text-xs text-muted-foreground">📞 WhatsApp</p>
-                  <p className="font-medium text-sm">+32 470 90 46 20</p>
+                  <p className="font-medium text-sm">+257 67 91 43 87</p>
                 </div>
               </div>
             </div>
